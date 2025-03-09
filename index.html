@@ -959,62 +959,53 @@
       </div>
 
     </section><!-- /Team Section -->
+   <!-- Contact Section -->
+   <section id="contact" class="contact section">
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p>Besoin d’aide ou d’un renseignement ? Écrivez-nous via le formulaire ou retrouvez-nous facilement grâce à la carte ci-dessous !</p>
+    </div><!-- End Section Title -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Besoin d’aide ou d’un renseignement ? Écrivez-nous via le formulaire ou retrouvez-nous facilement grâce à la carte ci-dessous !</p>
-      </div><!-- End Section Title -->
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-          <div class="col-lg-6 ">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3107.376675257746!2d10.593756275642969!3d35.856535572531264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd8a40325cdae5%3A0x7a33004f92fd30ea!2sMunicipalit%C3%A9%20Hammam%20Sousse!5e1!3m2!1sfr!2stn!4v1740510437957!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
+      <div class="row gy-4">
+        <div class="col-lg-6 ">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3107.376675257746!2d10.593756275642969!3d35.856535572531264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd8a40325cdae5%3A0x7a33004f92fd30ea!2sMunicipalit%C3%A9%20Hammam%20Sousse!5e1!3m2!1sfr!2stn!4v1740510437957!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
+        <div class="col-lg-6">
+            <form action="https://api.web3forms.com/submit" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
+            <input type="hidden" name="access_key" value="d0ad8546-6a3b-475a-ba0e-36ca0a0e585f">
+            <input type="hidden" name="redirect" value="https://clinquant-semolina-b09628.netlify.app/">
+        
+            <div class="row gy-4">
+        
+                <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+        
+                <div class="col-md-6">
+                    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                </div>
+        
+                <div class="col-md-12">
+                    <textarea class="form-control" name="message" rows="4" placeholder="Message" required></textarea>
+                </div>
+        
+                <div class="col-md-12 text-center">          
+                    <button type="submit">Send Message</button>
+                </div>
+        
+            </div>
+        </form>
+        </div><!-- End Contact Form -->
       </div>
+    </div>
+  </section><!-- /Contact Section -->
+</main>
 
-    </section><!-- /Contact Section -->
-
-  </main>
 
   <footer id="footer" class="footer dark-background">
 
