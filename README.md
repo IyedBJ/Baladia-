@@ -77,5 +77,4 @@ For production deployment, ensure:
 
 ---
 
-## 👤 Author
 Developed with ❤️ for Municipal Optimization.
